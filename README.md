@@ -31,7 +31,7 @@ Running
 	
 Now all should be set up. You can start the tracker with.
 
-    stateInfo = swSegTracker('config/scene.ini','config/params.ini');
+    stateInfo = swSegTracker('scene','config/scene.ini','params','config/params.ini');
     
 
 The first run will take some time because certain auxiliary structures
@@ -64,5 +64,3 @@ Please do not forget to cite our work if you end up using this code:
 	Title = {Joint Tracking and Segmentation of Multiple Targets},
 	Year = {2015}
     }
-    
-    
